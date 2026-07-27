@@ -1,8 +1,14 @@
 aid: halter
 name: Halter
-description: 'Halter is a company surfaced as a portfolio company of bessemer-venture-partners, bond-capital,
-  dcvc and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Halter is a New Zealand-founded agri-technology company that builds GPS-enabled,
+  solar-powered smart collars for cattle paired with a mobile and web app, letting farmers
+  set and move virtual fences, remotely shift and hold herds, and monitor animal location,
+  behavior, heat and health without physical fencing or manual labor. The platform combines
+  wearable IoT devices (including direct-to-satellite connectivity) with pasture-management
+  and grazing-allocation tools for dairy and beef operations. Halter operates across New
+  Zealand, Australia and the United States and is backed by Bessemer Venture Partners, Bond
+  Capital and DCVC. No public developer API surface has been identified; this profile captures
+  the company identity, web properties and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/halter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +18,32 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69026f092a1abaaefeffcb5b/6923af5d2f1d92b0294dfd60_open-graph-nz.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Deep Tech
+- AgTech
+- Agriculture
+- Livestock
+- Virtual Fencing
+- IoT
+- Precision Agriculture
+- Pasture Management
+- Cattle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +51,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/halter-domain-security.yml
 - type: Website
-  url: https://halterhq.com/home
+  url: https://www.halterhq.com/
+- type: Support
+  url: https://help.halter.io
+- type: HelpCenter
+  url: https://help.halter.io
+- type: Blog
+  url: https://www.halterhq.com/articles
+- type: GitHubOrganization
+  url: https://github.com/halter
+- type: Login
+  url: https://login.halter.io
+- type: SignUp
+  url: https://login.halter.io
+- type: TermsOfService
+  url: https://www.halterhq.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.halterhq.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.halter.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
